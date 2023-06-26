@@ -5,20 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FNM Custom Gun Works</title>
     <style>
-            p {
-      margin: 0;
-    }
 
     #one {
       background-color: #CC5500;
-      padding: 20px;
+      padding: 10px;
+      height: 50px;
       border: 0px solid #CC5500;
-        border-width: 0pc 1000px 0px 100px;
     }
 
     #two {
-        background-color: white;
-      padding: 20px;
+      background-color: white;
+      padding: 10px;
+      height: 15px;
       border: 0px solid black;
     }
 
@@ -54,17 +52,55 @@
       padding: 20px;
       border: 0px solid black;
     }
+
+    .left {
+      width: 150px;
+      height: 50px;
+      padding-left: 30px;
+      float: left; }
+
+    .right {
+      width: 45%;
+      text-align: right;
+      font-size: large;
+      font-weight: 800;
+      font-family: 'Ysabeau SC', sans-serif;
+      padding-right: 30px;
+      float: right; }
+    
+    .menu {
+      display: grid;
+      font-size: 11pt;
+      font-weight: 300;
+      font-family: 'Ysabeau SC', sans-serif;
+      text-align: right;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+
+    
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div id="one">
-        <img class="fit-picture"
-     height="75px"   
-     src="./flagwide.png"
-     alt="FNM Custom Gun Works Logo"> 
-     
+    <img class="left"
+      src="./flagwide.png"
+      alt="FNM Custom Gun Works Logo"> 
+     <p class="right">(512) 773-1000</p>
     </div>
-    <div id="two"></div>
+
+    <div id="two">
+      <div class="menu">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+      <div>Four</div>
+      <div>Five</div>
+    </div>
+    </div>
     <div id="three"></div>
     <div id="four"></div>
     <div id="five"></div>
