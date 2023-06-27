@@ -8,22 +8,23 @@
 
     #one {
       background-color: #CC5500;
-      padding: 10px;
-      height: 50px;
+      padding: 25px;
+      height: 55px;
       border: 0px solid #CC5500;
     }
 
     #two {
       background-color: white;
-      padding: 10px;
-      height: 15px;
+      padding: 20px;
+      height: 25px;
       border: 0px solid black;
     }
 
     #three {
-      height: 300px;
+      height: 200px;
       background-color: #CC5500;
-      padding: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       border: 0px solid black;
     }
 
@@ -70,11 +71,33 @@
     
     .menu {
       display: grid;
-      font-size: 11pt;
+      font-size: 13pt;
       font-weight: 300;
       font-family: 'Ysabeau SC', sans-serif;
       text-align: right;
       grid-template-columns: 40% 12% 12% 12% 12% 12%;
+    }
+
+    .main {
+      display: grid;
+      text-align: center;
+      grid-template-columns: 33% 34% 33%;
+    }
+
+    .sub {
+      display: grid;
+      text-align: center;
+      grid-template-columns: 50% 50%;
+    }
+
+    .services {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: xx-large;
+      font-weight: 800;
+      font-family: 'Ysabeau SC', sans-serif;
     }
     
     </style>
@@ -94,15 +117,42 @@
     <div id="two">
       <div class="menu">
       <div></div>
-      <div>One</div>
-      <div>Two</div>
-      <div>Three</div>
-      <div>Four</div>
-      <div>Five</div>
+      <div></div>
+      <div>Home</div>
+      <div>Services</div>
+      <div>Gallery</div>
+      <div>Contact</div>
     </div>
     </div>
-    <div id="three"></div>
-    <div id="four"></div>
+    <div id="three">
+      <div class="main">
+      <div>
+        <img src="./image1.jpg"
+          width="95%"
+          height="100%">
+      </div>
+      <div>
+        <img src="./image2.jpg"
+          width="95%"
+          height="100%">
+      </div>
+      <div>
+        <img src="./image3.jpg"
+          width="95%"
+          height="100%">
+      </div>
+      </div>
+    </div>
+    <div id="four">
+      <h1 class="services">
+        Something belongs here
+      </h1>
+      <div class="sub">
+        <div>Column 1</div>
+        <div>Column 2</div>
+
+      </div>
+    </div>
     <div id="five"></div>
     <div id="six"></div>
     <div id="footer">
