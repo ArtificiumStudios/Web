@@ -94,6 +94,21 @@
       text-align: center;
     }
 
+    .container {
+      display: flex;
+      background-color: #CC5500; 
+    }
+
+    .column {
+      flex: 1;
+      padding: 10px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
     h1 {
       font-size: xx-large;
       font-weight: 800;
@@ -109,7 +124,7 @@
 <body>
     <div id="one">
     <img class="left"
-      src="./flagwide.png"
+      src="./images/flagwide.png"
       alt="FNM Custom Gun Works Logo"> 
      <p class="right">(512) 773-1000</p>
     </div>
@@ -124,23 +139,16 @@
       <div>Contact</div>
     </div>
     </div>
-    <div id="three">
-      <div class="main">
-      <div>
-        <img src="./image1.jpg"
-          width="95%"
-          height="100%">
-      </div>
-      <div>
-        <img src="./image2.jpg"
-          width="95%"
-          height="100%">
-      </div>
-      <div>
-        <img src="./image3.jpg"
-          width="95%"
-          height="100%">
-      </div>
+      <div class="container">
+        <div class="column">
+          <img src="./images/image1.jpg" alt="Image 1">
+        </div>
+        <div class="column">
+          <img src="./images/image2.jpg" alt="Image 2">
+        </div>
+        <div class="column">
+          <img src="./images/image3.jpg" alt="Image 3">
+        </div>
       </div>
     </div>
     <div id="four">
