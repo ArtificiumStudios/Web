@@ -2,6 +2,8 @@
     background-color: #CC5500;
     padding: 25px;
     height: 55px;
+    text-align: right;
+    font-weight: 800;
     border: 0px solid #CC5500;
   }
 
@@ -9,6 +11,7 @@
     background-color: white;
     padding: 20px;
     height: 25px;
+    color: black;
     border: 0px solid black;
   }
 
@@ -99,6 +102,10 @@
   img {
     width: 100%;
     height: auto;
+  }
+
+  .blk {
+    color: black;
   }
 
   h1 {
