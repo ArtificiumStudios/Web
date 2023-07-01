@@ -10,7 +10,7 @@
   #two {
     background-color: white;
     padding: 5px;
-    height: 20px;
+    height: 0px;
     color: black;
     border: 0px solid black;
   }
@@ -64,14 +64,34 @@
     padding-right: 10px;
     float: right; }
   
-  .menu {
-    display: grid;
-    font-size: 11pt;
-    font-weight: 300;
-    font-family: 'Ysabeau SC', sans-serif;
-    text-align: right;
-    grid-template-columns: 25% 25% 25% 25%;
-  }
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-size: 11pt;
+      font-weight: 300;
+      font-family: 'Ysabeau SC', sans-serif;
+      text-align: right;
+    }
+    
+    .menu li {
+      display: inline-block;
+    }
+    
+    .menu li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+    }
+    
+    .menu li a:hover {
+      background-color: #f2f2f2; /* Add a hover background color if desired */
+    }
+    
+    .menu li a.active {
+      font-weight: bold;
+    }
 
   .main {
     display: grid;
