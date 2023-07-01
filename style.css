@@ -7,6 +7,14 @@
     border: 0px solid black;
   }
 
+  #two {
+    background-color: white;
+    padding: 5px;
+    height: 20px;
+    color: black;
+    border: 0px solid black;
+  }
+
   #three {
     height: 200px;
     background-color: #c64f37;
@@ -58,13 +66,11 @@
   
   .menu {
     display: grid;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 10pt;
+    font-size: 11pt;
     font-weight: 300;
     font-family: 'Ysabeau SC', sans-serif;
     text-align: right;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
   }
 
   .main {
@@ -106,6 +112,12 @@
   h1 {
     font-size: xx-large;
     font-weight: 800;
+    font-family: 'Ysabeau SC', sans-serif;
+  }
+
+  h2 {
+    font-size: large;
+    font-weight: 300;
     font-family: 'Ysabeau SC', sans-serif;
   }
   
