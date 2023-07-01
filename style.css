@@ -1,7 +1,7 @@
 #one {
     background-color: #c64f37;
-    padding: 15px;
-    height: 55px;
+    padding: 10px;
+    height: 45px;
     text-align: right;
     font-weight: 800;
     border: 0px solid black;
@@ -50,8 +50,8 @@
   }
 
   .left {
-    height: 55px;
-    width: 150px;
+    height: 45px;
+    width: 120px;
     padding-left: 0px;
     float: left; }
 
@@ -61,7 +61,7 @@
     font-size: large;
     font-weight: 800;
     font-family: 'Ysabeau SC', sans-serif;
-    padding-right: 30px;
+    padding-right: 10px;
     float: right; }
   
   .menu {
@@ -70,7 +70,7 @@
     font-weight: 300;
     font-family: 'Ysabeau SC', sans-serif;
     text-align: right;
-    grid-template-columns: 40% 12% 12% 12% 12% 12%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
   }
 
   .main {
