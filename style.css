@@ -1,10 +1,10 @@
 #one {
-    background-color: #CC5500;
+    background-color: #c64f37;
     padding: 25px;
     height: 55px;
     text-align: right;
     font-weight: 800;
-    border: 0px solid #CC5500;
+    border: 0px solid black;
   }
 
   #two {
@@ -17,7 +17,7 @@
 
   #three {
     height: 200px;
-    background-color: #CC5500;
+    background-color: #c64f37;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 0px solid black;
@@ -37,7 +37,7 @@
   }
 
   #six {
-      background-color: rgb(215, 214, 214);
+      background-color: #c64f37;
     padding: 20px;
     border: 0px solid black;
   }
@@ -87,11 +87,12 @@
 
   .services {
     text-align: center;
+    padding: 0px;
   }
 
   .container {
     display: flex;
-    background-color: #CC5500; 
+    background-color: #c64f37; 
   }
 
   .column {
@@ -111,6 +112,12 @@
   h1 {
     font-size: xx-large;
     font-weight: 800;
+    font-family: 'Ysabeau SC', sans-serif;
+  }
+
+  h2 {
+    font-size: large;
+    font-weight: 300;
     font-family: 'Ysabeau SC', sans-serif;
   }
   
