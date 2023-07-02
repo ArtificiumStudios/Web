@@ -7,90 +7,40 @@
     border: 0px solid black;
   }
 
-  #two {
+#two {
     background-color: white;
-    padding: 5px;
+    padding: 3px;
     height: 0px;
     color: black;
     border: 0px solid black;
   }
 
-  #three {
-    height: 200px;
-    background-color: #c94f38;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 0px solid black;
-  }
-
-  #four {
+#four {
     height: 300px;
     background-color: white;
     border: 0px solid black;
   }
 
-  #five {
-    background-color: #c94f38;
-    padding: 1px;
-    border: 0px solid black;
-  }
-
-  #gfive {
+#gfive {
     background-color: #395b64;
     padding: 20px;
     border: 0px solid black;
   } 
 
-  #six {
-    background-color: #d48137;
-    padding: 1px;
-    border: 0px solid black;
-  }
-
-  #seven {
-    background-color: #daae47;
-    padding: 1px;
-  b order: 0px solid black;
-}
-
-  #eight {
-    background-color: #381f38;
-    padding: 1px;
-    border: 0px solid black;
-}
-
-  #nine {
-    background-color: #c25429;
-    padding: 1px;
-    border: 0px solid black;
-}
-
-  #ten {
-    background-color: #4f5c9d;
-    padding: 1px;
-    border: 0px solid black;
-}
-
-  #eleven {
-    background-color: #343065;
-    padding: 1px;
-    border: 0px solid black;
-}
-
-  #footer {
+#footer {
     text-align: center;
     background-color: white;
     padding: 0px;
     border: 0px solid black;
   }
 
-  .left {
+.left {
     height: 45px;
     width: 120px;
     padding-left: 0px;
     float: left; }
 
-  .right {
+.right {
     width: 45%;
     text-align: right;
     color: #a5c9ca;
@@ -100,7 +50,7 @@
     padding-right: 10px;
     float: right; }
   
-    .menu {
+.menu {
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -111,68 +61,68 @@
       text-align: right;
     }
     
-    .menu li {
+.menu li {
       display: inline-block;
     }
     
-    .menu li a {
+.menu li a {
       display: block;
       padding: 10px;
       text-decoration: none;
       color: black;
     }
     
-    .menu li a:hover {
+.menu li a:hover {
       background-color: #f2f2f2; /* Add a hover background color if desired */
     }
     
-    .menu li a.active {
+.menu li a.active {
       font-weight: bold;
     }
 
-  .main {
+.main {
     display: grid;
     text-align: center;
     color: #2c3333;
     grid-template-columns: 33% 34% 33%;
   }
 
-  .sub {
+.sub {
     display: grid;
     text-align: center;
     grid-template-columns: 50% 50%;
   }
 
-  .services {
+.services {
     text-align: center;
     color: #2c3333;
     line-height: 11px;
     padding: 0px;
   }
 
-  .services2 {
+.services2 {
     text-align: center;
     line-height: 11px;
     padding: 0px;
   }
 
-  .services3 {
+.services3 {
     text-align: center;
     line-height: 11px;
     padding: 0px;
   }
 
-  .container {
+.container {
     display: flex;
     background-color: #395b64; 
   }
 
-  .containerwhite {
+.containerwhite {
     display: flex;
     background-color: whitesmoke; 
   }
 
-  .columnl {
+.columnl {
     flex: 1;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -181,7 +131,7 @@
 
   }
 
-  .columnc {
+.columnc {
     flex: 1;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -190,7 +140,7 @@
 
   }
 
-  .columnr {
+.columnr {
     flex: 1;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -199,58 +149,58 @@
 
   }
 
-  .column2 {
+.column2 {
     flex: 1;
     padding: 1pt;
   }
 
-  .foot {
+.foot {
     color: #2c3333;
   }
 
-  .blk {
+.blk {
     color: black;
   }
 
-  img {
+img {
     width: 100%;
     height: auto;
   }
 
-  h1 {
+h1 {
     font-size: xx-large;
     font-weight: 800;
     font-family: 'Ysabeau SC', sans-serif;
   }
 
-  h2 {
+h2 {
     font-size: large;
     font-weight: 300;
     font-family: 'Ysabeau SC', sans-serif;
   }
 
-  h3 {
+h3 {
     color: white;
     font-size: large;
     font-weight: 300;
     font-family: 'Ysabeau SC', sans-serif;
   }
 
-  h4 {
+h4 {
     color: darkgrey;
     font-size: large;
     font-weight: 600;
     font-family: 'Ysabeau SC', sans-serif;
   }
 
-  h5 {
+h5 {
     color: darkgrey;
     font-size: 11pt;
     font-weight: 300;
     font-family: 'Ysabeau SC', sans-serif;
   }
 
-  h6 {
+h6 {
     color: darkgrey;
     font-size: 10pt;
     font-weight: 300;
