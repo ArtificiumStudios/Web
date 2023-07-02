@@ -35,6 +35,12 @@
     border: 0px solid black;
   }
 
+  #gfive {
+    background-color: #c94f38;
+    padding: 20px;
+    border: 0px solid black;
+  } 
+
   #six {
     background-color: #d48137;
     padding: 1px;
@@ -65,10 +71,10 @@
     border: 0px solid black;
 }
 
-#eleven {
-  background-color: #343065;
-  padding: 1px;
-  border: 0px solid black;
+  #eleven {
+    background-color: #343065;
+    padding: 1px;
+    border: 0px solid black;
 }
 
   #footer {
