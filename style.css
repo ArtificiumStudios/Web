@@ -24,7 +24,7 @@
   }
 
   #four {
-    height: 230px;
+    height: 300px;
     background-color: white;
     border: 0px solid black;
   }
@@ -133,6 +133,7 @@
   .main {
     display: grid;
     text-align: center;
+    color: #2c3333;
     grid-template-columns: 33% 34% 33%;
   }
 
@@ -145,19 +146,19 @@
   .services {
     text-align: center;
     color: #2c3333;
-    line-height: 1px;
+    line-height: 11px;
     padding: 0px;
   }
 
   .services2 {
     text-align: center;
-    line-height: 1px;
+    line-height: 11px;
     padding: 0px;
   }
 
   .services3 {
     text-align: center;
-    line-height: 12px;
+    line-height: 11px;
     padding: 0px;
   }
 
@@ -171,25 +172,48 @@
     background-color: whitesmoke; 
   }
 
-  .column {
+  .columnl {
     flex: 1;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+
+  }
+
+  .columnc {
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+  }
+
+  .columnr {
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
 
   }
 
   .column2 {
     flex: 1;
-    padding-left: 10px;
-    padding-right: 10px;
+  }
+
+  .foot {
+    color: #2c3333;
+  }
+
+  .blk {
+    color: black;
   }
 
   img {
     width: 100%;
     height: auto;
-  }
-
-  .blk {
-    color: black;
   }
 
   h1 {
