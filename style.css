@@ -1,5 +1,5 @@
 #one {
-    background-color: #c64f37;
+    background-color: #c94f38;
     padding: 10px;
     height: 45px;
     text-align: right;
@@ -17,30 +17,59 @@
 
   #three {
     height: 200px;
-    background-color: #c64f37;
+    background-color: #c94f38;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 0px solid black;
   }
 
   #four {
-    height: 300px;
+    height: 200px;
     background-color: white;
-    padding: 20px;
     border: 0px solid black;
   }
 
   #five {
-      background-color: white;
-    padding: 20px;
+    background-color: #c94f38;
+    padding: 1px;
     border: 0px solid black;
   }
 
   #six {
-      background-color: #c64f37;
-    padding: 20px;
+    background-color: #d48137;
+    padding: 1px;
     border: 0px solid black;
   }
+
+  #seven {
+    background-color: #daae47;
+    padding: 1px;
+  b order: 0px solid black;
+}
+
+  #eight {
+    background-color: #381f38;
+    padding: 1px;
+    border: 0px solid black;
+}
+
+  #nine {
+    background-color: #c25429;
+    padding: 1px;
+    border: 0px solid black;
+}
+
+  #ten {
+    background-color: #4f5c9d;
+    padding: 1px;
+    border: 0px solid black;
+}
+
+#eleven {
+  background-color: #343065;
+  padding: 1px;
+  border: 0px solid black;
+}
 
   #footer {
     text-align: center;
@@ -136,6 +165,13 @@
   }
 
   h2 {
+    font-size: large;
+    font-weight: 300;
+    font-family: 'Ysabeau SC', sans-serif;
+  }
+
+  h3 {
+    color: white;
     font-size: large;
     font-weight: 300;
     font-family: 'Ysabeau SC', sans-serif;
