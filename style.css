@@ -201,6 +201,7 @@
 
   .column2 {
     flex: 1;
+    padding: 1pt;
   }
 
   .foot {
