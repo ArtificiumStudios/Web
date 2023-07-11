@@ -97,6 +97,13 @@
 
 .services {
     text-align: center;
+    color: #a5c9ca;
+    line-height: 11px;
+    padding: 0px;
+  }
+
+.servicestitle {
+    text-align: center;
     color: #2c3333;
     line-height: 11px;
     padding: 0px;
@@ -121,7 +128,7 @@
 
 .containerwhite {
     display: flex;
-    background-color: whitesmoke; 
+    background-color: #395b64; 
   }
 
 .columnl {
